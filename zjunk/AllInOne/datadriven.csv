@@ -1,0 +1,4 @@
+*** Test Cases ***;${username};${password}
+Login with Invalid username;kavitha;learning
+Login with Invalid password;rahulshettyacademy;kavitha
+Login with spl chara;12@#44;12#$123

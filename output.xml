@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-10-04T15:03:55.542531" rpa="false" schemaversion="5">
+<suite id="s1" name="kaviTest" source="C:\Users\Dell\PycharmProjects\Robotframework\0Kavitha\Test\kaviTest.robot">
+<test id="s1-t1" name="To test authentication pop up" line="10">
+<kw name="Launching Browser">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-04T15:03:57.830494" level="INFO">Opening browser 'Firefox' to base url 'https://tutorialsninja.com/demo/'.</msg>
+<arg>${url}</arg>
+<arg>${browserName}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-04T15:03:57.830494" elapsed="15.853128"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>5</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-10-04T15:04:13.685601" elapsed="0.008276"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-10-04T15:04:13.693877" elapsed="0.029508"/>
+</kw>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<status status="PASS" start="2024-10-04T15:03:57.829333" elapsed="15.894052"/>
+</kw>
+<status status="PASS" start="2024-10-04T15:03:57.828205" elapsed="15.895688"/>
+</test>
+<status status="PASS" start="2024-10-04T15:03:55.557643" elapsed="18.167255"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="kaviTest">kaviTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-10-04T15:03:55.841925" level="ERROR">Error in file 'C:\Users\Dell\PycharmProjects\Robotframework\0Kavitha\Test\kaviTest.robot' on line 2: Importing library 'BrowserLibrary' failed: ModuleNotFoundError: No module named 'BrowserLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Dell\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\Dell\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\Dell\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\Dell\AppData\Local\Programs\Python\Python312
+  C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+</errors>
+</robot>

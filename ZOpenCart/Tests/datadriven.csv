@@ -1,0 +1,7 @@
+*** Test Cases ***;${username};${password}
+Login with Valid data;kavi123@gmail.com;kavi12345
+Login with Invalid username;kavitha;learning
+Login with Invalid password;rahulshettyacademy;kavitha
+Login with spl character;12@#44;12#$123
+Login with Space;;;
+
